@@ -8,7 +8,7 @@ int main()
     /* Practice 2 */
     int x = 10; /*declaration of x to be used on the second print*/
     printf("The value of seven is: %d \n", 0007); /*hexadecimal*/
-    printf("The value of eighht is: %d \n", (8000*x - 7992*x)/x);
+    printf("The value of eight is: %d \n", (8000*x - 7992*x)/x);
 
     /* Practice 3 */
     printf("The value of nine is: %d \n", 0x9);
@@ -66,10 +66,10 @@ int main()
   
     float pi=3.141526; /* This is the value of pi */
   
-  
-  printf(" There are %d seconds in 3 hours.\n", v);
-  printf(" There are %d seconds in 3 minutes.\n", min3sec);
-  printf(" There are %d seconds in 5 minutes.\n", min6sec);
+    
+    printf(" There are %d seconds in 3 hours.\n", v);
+    printf(" There are %d seconds in 3 minutes.\n", min3sec);
+    printf(" There are %d seconds in 5 minutes.\n", min6sec);
   
   
       /*here we should print the v value, but a programmer didn't have time to write the code.
