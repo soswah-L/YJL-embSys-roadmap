@@ -75,5 +75,16 @@ int main()
       /*here we should print the v value, but a programmer didn't have time to write the code.
       However, he/she likes writing long, well formatted comments*/
 
+	/* Practice 11 */
+	int tenValue = 3 * 8 % 14;
+	int twentyValue = 2 * tenValue / 10 * 10;
+	printf("The value of ten is: %d\n", tenValue);
+	printf("The value of twenty is: %d\n", twentyValue);
+
+	int i = 100;
+	int j = -i;
+
+	printf("%d", j);
+
 	return 0;
 }
