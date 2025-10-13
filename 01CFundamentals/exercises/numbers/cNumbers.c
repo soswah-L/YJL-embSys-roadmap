@@ -86,5 +86,50 @@ int main()
 
 	printf("%d", j);
 
+	/* Prcatice 12 */
+	int xValue = 4 * 6 % 5;
+	int eightValue = 2 * xValue;
+	printf("The value of eight is: %d\n", eightValue);
+
+	/* Practice 14 */
+	int xValue = 5;
+	int yValue = 9;
+	int result = (xValue + yValue) * 2;
+	int bigResult = xValue + yValue * 6;
+	printf("the result is: %d\n", result);
+	printf("the big result is: %d\n", bigResult);
+
+	/* Practice 15 */
+	int xValue = 3;
+	int yValue = 2;
+	int result = ((xValue + yValue) * 2 * yValue);
+	int smallResult = ((xValue + yValue) * (4 % xValue));
+	printf("the result is: %d\n", result);
+	printf("the small result is: %d\n", smallResult);
+
+	/* Practice 16 */
+	int xValue = 5;
+	int yValue = 3;
+	int result = ((xValue % yValue) * (14 % yValue));
+	int smallResult = xValue * 10 % 4 + xValue;
+	printf("the result is: %d\n", result);
+	printf("the small result is: %d\n", smallResult);
+
+	/* Practice 17 */
+	float startValue = 100;
+	float interestRate = 0.015;
+	float firstYearValue;
+	float secondYearValue;
+	float thirdYearValue;
+	
+	/* Own code */
+	firstYearValue = startValue * interestRate + startValue;
+	secondYearValue = firstYearValue * interestRate + firstYearValue;
+	thirdYearValue = secondYearValue * interestRate + secondYearValue;
+	
+	printf("After first year: %f\n", firstYearValue);
+	printf("After second year: %f\n", secondYearValue);
+	printf("After third year: %f\n", thirdYearValue);
+
 	return 0;
 }
