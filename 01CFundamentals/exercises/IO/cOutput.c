@@ -13,6 +13,8 @@ int main()
     /* Common Mistakes */
     printf("\n%d %d %d", i, j);
     printf("\n%d", i, j);
+    printf("\n%d %d %d", 'A', ' ', 'a');
+    printf("\n%d", i*2);
     
     char c;
     c = '?';

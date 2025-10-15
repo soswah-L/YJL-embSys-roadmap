@@ -2,6 +2,14 @@
 
 int main()
 {
+	float test = 10;
+	int test1 = 10;
+
+	printf("%d\n", test);
+	printf("%f\n\n", test1);
+	printf("%f\n", test);
+	printf("%d\n\n", test1);
+
     /* Practice 1 */
     printf("The value of seven is: %f\n", 7.0);
 	printf("The value of eight and a half is: %f\n", 8.5);
