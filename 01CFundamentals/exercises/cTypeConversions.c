@@ -26,6 +26,29 @@ int main()
 	}
 	else{
 	}
+
+    /* Practice 2 */
+    float notExactFive;
+	float notExactNumber;
+	int exactFive;
+	int roundedNumber, check;
+	
+	scanf("%f\n", &notExactFive);
+	scanf("%f", &notExactNumber);
+	
+	check = notExactNumber;
+	
+	if (notExactNumber - check >= 0.5)
+	{
+		roundedNumber = notExactNumber + 1;
+	}
+	else
+	{
+		roundedNumber = notExactNumber;
+	}
+	exactFive = notExactFive;
+	printf("Five is: %d\n", exactFive);
+	printf("Rounded: %d\n", roundedNumber);
 	
 	return 0;
 }
