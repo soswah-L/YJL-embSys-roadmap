@@ -2,22 +2,25 @@
 
 int main (void){
 
-    int number;
-    int max = -100000;
-    int counter = 0;
+    int counter = 5;
 
-    do {
-        scanf("%d",&number);
-        if(number != -1) 
-            counter++;
-            if(number > max)
-                max = number;
+    while (counter != 0){
+        puts("I'm an awesomesauce!");
+        counter--;
     }
-	while (number != -1);
-		if(counter)
-          printf("The largest number is %d \n",max);
-		else 
-			printf("Hey, you haven't entered any number!");
+    
+    counter = 5;
+
+    while (counter){
+        puts("Peanut butter jelly sandwich");
+        counter--;
+    }
+
+    counter = 5;
+
+    while (counter--)
+        puts("OOGA BOOGA");
+
 
     return 0;
 }
