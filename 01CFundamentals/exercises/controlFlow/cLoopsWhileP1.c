@@ -14,9 +14,6 @@ int main(void){
         else{
             printf("Sum: %d\n\n", num1 + num2);
         }
-	    
-
-        
 	}
 return 0;
 }
